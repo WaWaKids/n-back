@@ -72,9 +72,9 @@ class ButtonsActivity : AppCompatActivity(), View.OnClickListener {
             score = 0
         }
         text.setText(Integer.toString(score))
-        temp.peekFirst().setColorFilter(R.color.colorGrey)
+        temp.peekFirst().setImageResource(R.drawable.button_grey)
         temp.addFirst(btn[(0..8).shuffled().first()])
-        temp.peekFirst().setColorFilter(R.color.colorGrey)
+        temp.peekFirst().setImageResource(R.drawable.button_blue)
     }
 
     override fun onSaveInstanceState(savedInstanceState: Bundle) {
