@@ -21,9 +21,9 @@
     <ImageButton
         android:id="@+id/btn11"
         android:src="@drawable/button_grey"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginBottom="3dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toTopOf="@+id/btn21"
         app:layout_constraintEnd_toStartOf="@+id/btn12"
         app:layout_constraintStart_toStartOf="parent" />
@@ -31,9 +31,9 @@
     <ImageButton
         android:id="@+id/btn12"
         android:src="@drawable/button_grey"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginBottom="3dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toTopOf="@+id/btn22"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
@@ -41,9 +41,9 @@
     <ImageButton
         android:id="@+id/btn13"
         android:src="@drawable/button_grey"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginBottom="3dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toTopOf="@+id/btn23"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn12" />
@@ -51,9 +51,8 @@
     <ImageButton
         android:id="@+id/btn21"
         android:src="@drawable/button_grey"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="3dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn22"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,9 +61,8 @@
     <ImageButton
         android:id="@+id/btn22"
         android:src="@drawable/button_grey"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="3dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -73,9 +71,8 @@
     <ImageButton
         android:id="@+id/btn23"
         android:src="@drawable/button_grey"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="3dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn22"
@@ -84,9 +81,9 @@
     <ImageButton
         android:id="@+id/btn31"
         android:src="@drawable/button_grey"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="3dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="1dp"
         app:layout_constraintEnd_toStartOf="@+id/btn32"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn21" />
@@ -94,9 +91,9 @@
     <ImageButton
         android:id="@+id/btn32"
         android:src="@drawable/button_grey"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="3dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="1dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn22"/>
@@ -104,9 +101,9 @@
     <ImageButton
         android:id="@+id/btn33"
         android:src="@drawable/button_grey"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="3dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn32"
         app:layout_constraintTop_toBottomOf="@+id/btn23" />
