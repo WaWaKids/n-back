@@ -1,5 +1,6 @@
 package android.wawakidss.n_back
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -9,11 +10,10 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import java.util.*
-import java.util.concurrent.TimeUnit
 
 class ButtonsActivity : AppCompatActivity(), View.OnClickListener {
 
-    val n = 1
+    var n: Int = 0
     var score = 0
     val TAG: String = "ButtonsActivity"
     var temp = ArrayDeque<ImageButton>(n)
@@ -27,8 +27,8 @@ class ButtonsActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.buttons_activity)
 
         if (savedInstanceState != null)
-            score = savedInstanceState.getInt(KEY_INDEX, 0);
-
+            score = savedInstanceState.getInt(KEY_INDEX, 0)
+        n = getIntent().getIntExtra("n", 1)
         text = findViewById<TextView>(R.id.score)
         btn = arrayOf(
             findViewById<ImageButton>(R.id.btn11),
